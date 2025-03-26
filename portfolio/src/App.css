@@ -30,7 +30,7 @@ body {
 
 /* Tamanho da logo */
 .App-logo {
-  height: 2.5em;
+  /* height: 2.5em; */
   pointer-events: none;
 }
 
@@ -74,4 +74,18 @@ body {
 }
 .letra-cor-fixa {
   color: #83DA8A;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

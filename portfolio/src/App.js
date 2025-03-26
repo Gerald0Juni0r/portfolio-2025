@@ -1,4 +1,5 @@
 import logo from '../src/logo.png';
+import reactLogo from '../src/react-logo.png';
 import './App.css';
 
 // Conhecido como JSX
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} alt="logo" />
 
         <nav className="navbar">
           <a href="/">INÍCIO</a>
@@ -39,6 +40,9 @@ function App() {
             <span className="letra-cor">O</span>
             <span className="letra-cor-fixa">R</span>
           </h1>
+        </div>
+        <div>
+          <img src={reactLogo} className="App-logo" alt="react-logo" />
         </div>
         <div className="escrevendo-cargo">
           v Desenvolvedor WEB |
