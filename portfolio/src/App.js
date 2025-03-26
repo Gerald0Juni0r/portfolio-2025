@@ -5,29 +5,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="header">
         <img src={logo} className="App-logo" alt="logo" />
-        <nav className="navigation-area">
-          <div>
-            <a >INÍCIO</a>
-          </div>
-          <div>
-            <a className="navigation-area">SOBRE</a>
-          </div>
-          <div>
-            <a className="navigation-area">PROJETOS</a>
-          </div>
-          <div>
-            <a className="navigation-area">HABILIDADES</a>
-          </div>
+
+        <nav className="navbar">
+          <a href="/">INÍCIO</a>
+          <a href="/">SOBRE</a>
+          <a href="/">PROJETOS</a>
+          <a href="/">HABILIDADES</a>
         </nav>
-        <div className="language">
-          <a>eng-us</a>
-        </div>
       </header>
-        <h2>
-          Olá  , eu me chamo
-        </h2>
+      <div className="sec-inicio">
+        <div>
+          <h2>
+            Olá 👋, eu me chamo
+          </h2>
+        </div>
         <div className="name">
           <h1 className="first-name">
             <span className="letra-cor">G</span>
@@ -47,6 +40,19 @@ function App() {
             <span className="letra-cor-fixa">R</span>
           </h1>
         </div>
+        <div className="escrevendo-cargo">
+          v Desenvolvedor WEB |
+        </div>
+      </div>
+      <div className="sec-sobre">
+        Sobre mim
+      </div>
+      <div className="sec-projetos">
+        meus projetos
+      </div>
+      <div className="sec-habilidades">
+        habilidades técnicas
+      </div>
     </div>
   );
 }
